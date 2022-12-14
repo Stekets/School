@@ -46,8 +46,8 @@ print("Here is: ", savedDice) #Printar dictionaryn med antalet par för resp. m�
 
 total="Total: ", (sum(savedDice.values())) #Summerar totalen på antalet par
 today = datetime.datetime.now() #Datum & tid för när kasten gjordes
-with open('savedDice.txt', 'a') as f: #Skapar en textfil savedDice som lägger till 
-    print(savedDice, total, today, file=f)
+with open('savedDice.txt', 'a') as f: #Skapar en textfil savedDice.txt som lägger till resultat i dokumentet
+    print(savedDice, total, today, file=f) #Printar resultatet samt vilket datum som det gjordes
 
 
 
