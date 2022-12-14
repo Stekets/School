@@ -6,7 +6,6 @@ import datetime
 #slumpa 5 tärningskast random mellan siffrorna 1-6
 #Kolla om två lika och endast två. Om fler än två är lika ska den inte räknas som ett par. Är det endast ett par ska den räknas.
 #Spara vilket nummer paret är
-#Om fler än två är lika, skippa att räkna
 #Sparade numret + resultatet skrivs över till en textfil.
 
 
